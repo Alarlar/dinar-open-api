@@ -1,0 +1,24 @@
+
+
+/* The main site will be for Desktop */
+@media all and (max-width: 600px) {
+    .container {
+      flex-wrap: wrap;
+      font-size: 16px;
+      padding: 25px;
+      margin: 20px;
+    }
+    .no-bullets {
+      background-color: lightseagreen;
+      font-size: 20px;
+    }
+    .name {
+      font-size: 48px;
+    }
+  }
+  
+  @media all and (max-width: 400px) {
+    .container {
+      flex: 1 1 100%;
+    }
+  }
