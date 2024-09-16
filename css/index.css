@@ -1,24 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
 
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
 
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 2rem;
+}
+
+#content {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 /* The main site will be for Desktop */
 @media all and (max-width: 600px) {
-    .container {
-      flex-wrap: wrap;
-      font-size: 16px;
-      padding: 25px;
-      margin: 20px;
-    }
-    .no-bullets {
-      background-color: lightseagreen;
-      font-size: 20px;
-    }
-    .name {
-      font-size: 48px;
-    }
+  .container {
+    flex-wrap: wrap;
+    font-size: 16px;
+    padding: 25px;
+    margin: 20px;
   }
-  
-  @media all and (max-width: 400px) {
-    .container {
-      flex: 1 1 100%;
-    }
+  .no-bullets {
+    background-color: lightseagreen;
+    font-size: 20px;
   }
+  .name {
+    font-size: 48px;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .container {
+    flex: 1 1 100%;
+  }
+}
